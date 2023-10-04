@@ -1,0 +1,14 @@
+Name	Species	Tissue	Sex	Disease	Identifier
+MCF7	human	"mammary gland, breast"	female	adenocarcinoma	ATCC? HTB-22
+DLD-1	human	colon	male	colorectal adenocarcinoma	ATCC? CCL-221
+LN-229	human	brain	female	glioblastoma	ATCC? CRL-2611
+HEPG2	human	liver	male	hepatocellular carcinoma	ATCC? HB-8065
+Jurkat	human	peripheral blood	male	acute t?cell leukemia	ATCC? TIB-152
+HEK293	human	embryonic kidney	female		ATCC? CRL-3216
+HeLa	human	cervix	female	adenocarcinoma	ATCC? CCL-2
+A549	human	lung	male	carcinoma	ATCC? CCL-185
+SK-MEL-28	human	skin	male	malignant melanoma	ATCC? HTB-72
+SK-N-MC	human	brain	female	neuroepithelioma	ATCC? HTB-10
+DU145	human	prostate	male	carcinoma	ATCC? HTB-81
+Raji	human	lymphoblast	male	burkittÅfs lymphoma	ATCC? CCL-86
+NTERA-2	human	testis	male	malignant pluripotent embryonal carcinoma	ATCC? CRL-1973
