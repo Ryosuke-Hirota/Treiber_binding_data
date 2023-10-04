@@ -9,7 +9,7 @@ na.zero <-function(x){
   return(x)
   }
 
-# set funtion for calculating pecentage
+# set function for calculating percentage
 cal.percent <-function(x,data){
   
   if(x==1){
@@ -30,7 +30,7 @@ cal.percent <-function(x,data){
   }
 
 # import Treiber's mass spectrum data
-# this data is located at ""
+# this data is located at "https://github.com/Ryosuke-Hirota/Treiber_binding_data"
 setwd("C:/Rdata/Treiber_data")
 treiber.counts <-read.csv("Treiber_spectrum_counts_hit.csv",header = T,sep=",",check.names = F,stringsAsFactors = F)
 
@@ -39,10 +39,6 @@ cell.lines <-unique(treiber.counts$`cell line`)
 
 # convert NA to 0
 treiber.counts <-na.zero(treiber.counts)
-
-data <-treiber.counts[treiber.counts[,2]=="HEPG2",c(8:79)]
-miRNA <-cal.percent(1,data)
-RBP <-cal.percent(2,data)
 
 # arrange treiber's data for each cell line
 library(reshape2)
